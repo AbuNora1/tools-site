@@ -4,7 +4,7 @@ import Script from 'next/script';
 
 export default function Analytics() {
   // سنضع رقم التتبع الخاص بك هنا لاحقاً
-  const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; 
+  const GA_MEASUREMENT_ID = ':G-WTJCX5LS2C'; 
 
   return (
     <>
