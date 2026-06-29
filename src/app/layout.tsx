@@ -23,8 +23,11 @@ export const metadata: Metadata = {
   description:
     "منصة عربية تضم مئات الأدوات والحاسبات الذكية: حاسبة العمر، النسبة المئوية، الزكاة، BMI، العد التنازلي، والتحويلات — بواجهة سريعة وحديثة.",
   openGraph: { type: "website", locale: "ar_SA", siteName: "حاسب" },
+  // أضفنا هذا السطر للتحقق من ملكية جوجل (استبدل كلمة الصق_الكود_هنا بالكود اللي نسخته)
+  verification: {
+    google: "k66m4_Ff8eP6Nva1",
+  },
 };
-
 // سكربت لمنع وميض الوضع الليلي قبل التحميل
 const themeScript = `try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}`;
 
