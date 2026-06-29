@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: { type: "website", locale: "ar_SA", siteName: "حاسب" },
   // أضفنا هذا السطر للتحقق من ملكية جوجل (استبدل كلمة الصق_الكود_هنا بالكود اللي نسخته)
   verification: {
-    google: "k66m4_Ff8eP6Nva1",
+    google: "k66m4_Ff8eP6Nva1LcIoH3RpwQiCpnxYy9TkM8vAohE",
   },
 };
 // سكربت لمنع وميض الوضع الليلي قبل التحميل
