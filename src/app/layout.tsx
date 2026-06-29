@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import { SITE_URL } from "@/lib/site";
 import { CATEGORIES, getPopularTools } from "@/lib/tools";
+import Analytics from '@/components/Analytics';
 
 const tajawal = Tajawal({
   subsets: ["arabic", "latin"],
@@ -66,6 +67,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="fbottom">© 2026 حاسب — Smart Tools Hub. جميع الحقوق محفوظة.</div>
           </div>
         </footer>
+        {/* تم إضافة مكون التتبع هنا */}
+        <Analytics />
       </body>
     </html>
   );
